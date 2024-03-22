@@ -64,6 +64,9 @@ sudo apt-get install -y docker-ce
 Check Docker is running:
 ```sh
 sudo systemctl status docker
+sudo service docker status
+sudo service docker start
+sudo service docker status
 ```
 
 Add your user to the docker group:
