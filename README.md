@@ -115,3 +115,16 @@ Build a new image using the test stage as the target and view the test results:
 ```sh
 docker build -t node-docker-image-test --progress=plain --no-cache --target test .
 ```
+
+Show the Docker running processes:
+```sh
+docker ps
+```
+
+Stop (kill) a process:
+```sh
+docker stop <CONTAINER ID>
+# or
+docker stop <NAMES>
+```
+
