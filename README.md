@@ -84,3 +84,34 @@ Check Docker compose is installed:
 docker-compose --version
 ```
 
+## Containers
+
+Start the application:
+```sh
+docker compose up --build
+```
+
+Stop the application:
+```sh
+docker compose down
+```
+
+Remove your container:
+```sh
+docker compose rm
+```
+
+Start the application:
+```sh
+docker compose up
+```
+
+Run the test script from the package.json file inside a container:
+```sh
+docker compose run server npm run test
+```
+
+Build a new image using the test stage as the target and view the test results:
+```sh
+docker build -t node-docker-image-test --progress=plain --no-cache --target test .
+```
