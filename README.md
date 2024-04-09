@@ -128,3 +128,9 @@ docker stop <CONTAINER ID>
 docker stop <NAMES>
 ```
 
+## Builds
+
+List all the built images:
+```sh
+docker images
+```
