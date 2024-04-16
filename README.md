@@ -128,9 +128,16 @@ docker stop <CONTAINER ID>
 docker stop <NAMES>
 ```
 
-## Builds
+## Images
 
 List all the built images:
 ```sh
 docker images
+```
+
+Delete image:
+```sh
+docker rmi server-server:latest
+# or
+docker rmi -f server-server:latest
 ```
