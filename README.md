@@ -86,6 +86,13 @@ docker-compose --version
 
 ## Containers
 
+List all the containers:
+```sh
+docker container ls
+#or
+docker containers
+```
+
 Start the application:
 ```sh
 docker compose up --build
@@ -132,6 +139,8 @@ docker stop <NAMES>
 
 List all the built images:
 ```sh
+docker image ls
+#or 
 docker images
 ```
 
