@@ -150,3 +150,8 @@ docker rmi server-server:latest
 # or
 docker rmi -f server-server:latest
 ```
+
+Save image:
+```sh
+docker save -o <file-name.tar> <image-name>:<tag-name>
+```
